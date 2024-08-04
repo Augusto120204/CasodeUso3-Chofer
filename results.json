@@ -1,0 +1,112 @@
+[
+  {
+    "uri": "Feature/buscar.feature",
+    "id": "buscar-chofer",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Buscar chofer",
+    "description": "",
+    "elements": [
+      {
+        "id": "buscar-un-chofer-existente",
+        "line": 3,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Buscar un chofer existente",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 4,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 2.1326398849487305
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 5,
+            "name": "Entra a la seccion chofer",
+            "result": {
+              "status": "passed",
+              "duration": 1.0708904266357422
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "Escribir el nombre a buscar Alexander",
+            "result": {
+              "status": "passed",
+              "duration": 0.4110562801361084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 7,
+            "name": "Visualizar el chofer buscado",
+            "result": {
+              "status": "passed",
+              "duration": 0.22150039672851562
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-un-chofer-inexistente",
+        "line": 9,
+        "type": "scenario",
+        "keyword": "Scenario",
+        "name": "Buscar un chofer inexistente",
+        "description": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 10,
+            "name": "Se inicia el navegador",
+            "result": {
+              "status": "passed",
+              "duration": 1.821852445602417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When",
+            "line": 11,
+            "name": "Entra a la seccion chofer",
+            "result": {
+              "status": "passed",
+              "duration": 0.7678537368774414
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "Escribir el nombre a buscar Alma",
+            "result": {
+              "status": "passed",
+              "duration": 0.3038182258605957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then",
+            "line": 13,
+            "name": "Visualizar el chofer buscado",
+            "result": {
+              "status": "failed",
+              "duration": 0.03828024864196777
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
